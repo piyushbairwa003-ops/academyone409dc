@@ -328,5 +328,22 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1703700860639845&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
+
+  <p>Redirecting in <span id="timer">10</span> seconds...</p>
+
+<script>
+let timeLeft = 10;
+
+const timer = setInterval(() => {
+    timeLeft--;
+    document.getElementById("timer").textContent = timeLeft;
+
+    if (timeLeft <= 0) {
+        clearInterval(timer);
+        window.location.href = "https://t.me/+t0SkxoGCV7thMjc1";
+    }
+}, 1000);
+</script>
 </body>
 </html>
